@@ -658,11 +658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Rleit\\Documents\\C#\\MuniBarvaAPI\\MuniBarvaDAO\\MuniBarva.DAO.csproj",
+      "projectUniqueName": "D:\\Rleit\\Documents\\C#\\MunicipalidadBarvaAPI\\MuniBarvaDAO\\MuniBarva.DAO.csproj",
       "projectName": "MuniBarva.DAO",
-      "projectPath": "D:\\Rleit\\Documents\\C#\\MuniBarvaAPI\\MuniBarvaDAO\\MuniBarva.DAO.csproj",
+      "projectPath": "D:\\Rleit\\Documents\\C#\\MunicipalidadBarvaAPI\\MuniBarvaDAO\\MuniBarva.DAO.csproj",
       "packagesPath": "C:\\Users\\Rleit\\.nuget\\packages\\",
-      "outputPath": "D:\\Rleit\\Documents\\C#\\MuniBarvaAPI\\MuniBarvaDAO\\obj\\",
+      "outputPath": "D:\\Rleit\\Documents\\C#\\MunicipalidadBarvaAPI\\MuniBarvaDAO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -684,8 +684,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Rleit\\Documents\\C#\\MuniBarvaAPI\\MuniBarva.MODELS\\MuniBarva.MODELS.csproj": {
-              "projectPath": "D:\\Rleit\\Documents\\C#\\MuniBarvaAPI\\MuniBarva.MODELS\\MuniBarva.MODELS.csproj"
+            "D:\\Rleit\\Documents\\C#\\MunicipalidadBarvaAPI\\MuniBarva.MODELS\\MuniBarva.MODELS.csproj": {
+              "projectPath": "D:\\Rleit\\Documents\\C#\\MunicipalidadBarvaAPI\\MuniBarva.MODELS\\MuniBarva.MODELS.csproj"
             }
           }
         }

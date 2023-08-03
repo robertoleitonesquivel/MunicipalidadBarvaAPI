@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kvSiauDL5bxICT/4HtLN8XfINeY4VeZMAHDKhb6E4D5nMDsYnm+tUJFHX1sWgxKtxXnX/lwlnkESlCyJevxHow==",
+  "dgSpecHash": "erCU8lrgLWG7j6X9aOz11fVrVPdfQSU3pokZV8wxfK0gEMbD17tn1qE7Gv7mjqEQ5EhXozG1QtnMyGXhHfYSMA==",
   "success": true,
-  "projectFilePath": "D:\\Rleit\\Documents\\C#\\MuniBarvaAPI\\MuniBarva.MODELS\\MuniBarva.MODELS.csproj",
+  "projectFilePath": "D:\\Rleit\\Documents\\C#\\MunicipalidadBarvaAPI\\MuniBarva.MODELS\\MuniBarva.MODELS.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

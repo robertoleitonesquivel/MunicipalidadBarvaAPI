@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "88N/vgCh1FQ1l1Q6dpHgxTnFwWaFNrTMBIJzssYQt7mcY88zN6nBFFVrLIA8M+Q8W8WSByqlfWyGnsKdedLN+g==",
+  "dgSpecHash": "pnHKi7YS7HlxzSSM0O6Lqe1e4+ZCVka2UdQyGu7NNGVxex+y3cN+CnQ3JcTNOyR3a3TvJLt8pNRe0IfMVbuxqA==",
   "success": true,
-  "projectFilePath": "D:\\Rleit\\Documents\\C#\\MuniBarvaAPI\\MuniBarvaDAO\\MuniBarva.DAO.csproj",
+  "projectFilePath": "D:\\Rleit\\Documents\\C#\\MunicipalidadBarvaAPI\\MuniBarvaDAO\\MuniBarva.DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rleit\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
     "C:\\Users\\Rleit\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

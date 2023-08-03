@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x2YhR9SuTk/lQcINT9o3ZCfQ55coDSbFuh8FJ5JPxyvfFCix3y1Q4Zc9w2q5pW9gODYUUq/amtQ6C9h7Q9/hVQ==",
+  "dgSpecHash": "foVyc0HAfN836s+jxKg9EGLpbbu22I1ZR8hrTSHsAnDhnQp8LqjOdq2o2n+knwVzwrvSd1apQkxjLNVvulm/Wg==",
   "success": true,
-  "projectFilePath": "D:\\Rleit\\Documents\\C#\\MuniBarvaAPI\\MuniBarva.API\\MuniBarva.API.csproj",
+  "projectFilePath": "D:\\Rleit\\Documents\\C#\\MunicipalidadBarvaAPI\\MuniBarva.API\\MuniBarva.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rleit\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",
     "C:\\Users\\Rleit\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
