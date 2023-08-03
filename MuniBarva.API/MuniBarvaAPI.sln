@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuniBarva.API", "MuniBarva.API.csproj", "{EB692970-9F3B-48F3-96DA-9A6CF792C686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuniBarva.DAO", "..\MuniBarvaDAO\MuniBarva.DAO.csproj", "{AC091713-B328-4A2C-BD98-3EEBDA161EBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuniBarva.SERVICES", "..\MuniBarva.SERVICES\MuniBarva.SERVICES.csproj", "{96F33219-2BA4-412D-9370-B67FD37E4512}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuniBarva.MODELS", "..\MuniBarva.MODELS\MuniBarva.MODELS.csproj", "{C6CA6973-8BD2-4942-904A-C418AD4A21DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB692970-9F3B-48F3-96DA-9A6CF792C686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB692970-9F3B-48F3-96DA-9A6CF792C686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB692970-9F3B-48F3-96DA-9A6CF792C686}.Debug|x64.ActiveCfg = Debug|x64
+		{EB692970-9F3B-48F3-96DA-9A6CF792C686}.Debug|x64.Build.0 = Debug|x64
+		{EB692970-9F3B-48F3-96DA-9A6CF792C686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB692970-9F3B-48F3-96DA-9A6CF792C686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB692970-9F3B-48F3-96DA-9A6CF792C686}.Release|x64.ActiveCfg = Release|x64
+		{EB692970-9F3B-48F3-96DA-9A6CF792C686}.Release|x64.Build.0 = Release|x64
+		{AC091713-B328-4A2C-BD98-3EEBDA161EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC091713-B328-4A2C-BD98-3EEBDA161EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC091713-B328-4A2C-BD98-3EEBDA161EBB}.Debug|x64.ActiveCfg = Debug|x64
+		{AC091713-B328-4A2C-BD98-3EEBDA161EBB}.Debug|x64.Build.0 = Debug|x64
+		{AC091713-B328-4A2C-BD98-3EEBDA161EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC091713-B328-4A2C-BD98-3EEBDA161EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC091713-B328-4A2C-BD98-3EEBDA161EBB}.Release|x64.ActiveCfg = Release|x64
+		{AC091713-B328-4A2C-BD98-3EEBDA161EBB}.Release|x64.Build.0 = Release|x64
+		{96F33219-2BA4-412D-9370-B67FD37E4512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F33219-2BA4-412D-9370-B67FD37E4512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F33219-2BA4-412D-9370-B67FD37E4512}.Debug|x64.ActiveCfg = Debug|x64
+		{96F33219-2BA4-412D-9370-B67FD37E4512}.Debug|x64.Build.0 = Debug|x64
+		{96F33219-2BA4-412D-9370-B67FD37E4512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F33219-2BA4-412D-9370-B67FD37E4512}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F33219-2BA4-412D-9370-B67FD37E4512}.Release|x64.ActiveCfg = Release|x64
+		{96F33219-2BA4-412D-9370-B67FD37E4512}.Release|x64.Build.0 = Release|x64
+		{C6CA6973-8BD2-4942-904A-C418AD4A21DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CA6973-8BD2-4942-904A-C418AD4A21DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CA6973-8BD2-4942-904A-C418AD4A21DD}.Debug|x64.ActiveCfg = Debug|x64
+		{C6CA6973-8BD2-4942-904A-C418AD4A21DD}.Debug|x64.Build.0 = Debug|x64
+		{C6CA6973-8BD2-4942-904A-C418AD4A21DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CA6973-8BD2-4942-904A-C418AD4A21DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CA6973-8BD2-4942-904A-C418AD4A21DD}.Release|x64.ActiveCfg = Release|x64
+		{C6CA6973-8BD2-4942-904A-C418AD4A21DD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7E1327D-3530-4AD6-BD04-AAF211C292C1}
+	EndGlobalSection
+EndGlobal
