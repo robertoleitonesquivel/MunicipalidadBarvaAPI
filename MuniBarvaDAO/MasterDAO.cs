@@ -3,11 +3,11 @@ using System.Data.SqlClient;
 
 namespace MuniBarva.DAO
 {
-    public class MasterDAO
+    public class MasterDao
     {
         private readonly string _connectionString;
 
-        public MasterDAO(IConfiguration configuration)
+        public MasterDao(IConfiguration configuration)
         {
             _connectionString = configuration.GetConnectionString("MuniBarvaDB");
         }

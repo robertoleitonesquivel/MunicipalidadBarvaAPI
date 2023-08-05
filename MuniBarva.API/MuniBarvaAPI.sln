@@ -5,11 +5,13 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuniBarva.API", "MuniBarva.API.csproj", "{EB692970-9F3B-48F3-96DA-9A6CF792C686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuniBarva.DAO", "..\MuniBarvaDAO\MuniBarva.DAO.csproj", "{AC091713-B328-4A2C-BD98-3EEBDA161EBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuniBarva.DAO", "..\MuniBarvaDAO\MuniBarva.DAO.csproj", "{AC091713-B328-4A2C-BD98-3EEBDA161EBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuniBarva.SERVICES", "..\MuniBarva.SERVICES\MuniBarva.SERVICES.csproj", "{96F33219-2BA4-412D-9370-B67FD37E4512}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuniBarva.SERVICES", "..\MuniBarva.SERVICES\MuniBarva.SERVICES.csproj", "{96F33219-2BA4-412D-9370-B67FD37E4512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuniBarva.MODELS", "..\MuniBarva.MODELS\MuniBarva.MODELS.csproj", "{C6CA6973-8BD2-4942-904A-C418AD4A21DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuniBarva.MODELS", "..\MuniBarva.MODELS\MuniBarva.MODELS.csproj", "{C6CA6973-8BD2-4942-904A-C418AD4A21DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuniBarva.COMMON", "..\MuniBarva.COMMON\MuniBarva.COMMON.csproj", "{32A0404C-343D-4ED6-8523-F67CF7803262}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{C6CA6973-8BD2-4942-904A-C418AD4A21DD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6CA6973-8BD2-4942-904A-C418AD4A21DD}.Release|x64.ActiveCfg = Release|x64
 		{C6CA6973-8BD2-4942-904A-C418AD4A21DD}.Release|x64.Build.0 = Release|x64
+		{32A0404C-343D-4ED6-8523-F67CF7803262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A0404C-343D-4ED6-8523-F67CF7803262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A0404C-343D-4ED6-8523-F67CF7803262}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{32A0404C-343D-4ED6-8523-F67CF7803262}.Debug|x64.Build.0 = Debug|Any CPU
+		{32A0404C-343D-4ED6-8523-F67CF7803262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A0404C-343D-4ED6-8523-F67CF7803262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A0404C-343D-4ED6-8523-F67CF7803262}.Release|x64.ActiveCfg = Release|Any CPU
+		{32A0404C-343D-4ED6-8523-F67CF7803262}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

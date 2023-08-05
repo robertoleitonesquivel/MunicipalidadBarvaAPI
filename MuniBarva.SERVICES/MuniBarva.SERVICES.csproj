@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.3.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.32.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MuniBarva.COMMON\MuniBarva.COMMON.csproj" />
     <ProjectReference Include="..\MuniBarva.MODELS\MuniBarva.MODELS.csproj" />
     <ProjectReference Include="..\MuniBarvaDAO\MuniBarva.DAO.csproj" />
   </ItemGroup>

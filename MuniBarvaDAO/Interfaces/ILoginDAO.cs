@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MuniBarva.DAO.Interfaces
 {
-    public interface ILoginDAO
+    public interface ILoginDao
     {
         Task<Employees> SignIn(string _email, string _password); 
     }

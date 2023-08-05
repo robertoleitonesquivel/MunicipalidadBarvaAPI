@@ -22,3 +22,15 @@ D:\Rleit\Documents\C#\MuniBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\MuniBar
 D:\Rleit\Documents\C#\MuniBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\refint\MuniBarva.MODELS.dll
 D:\Rleit\Documents\C#\MuniBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\MuniBarva.MODELS.pdb
 D:\Rleit\Documents\C#\MuniBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\ref\MuniBarva.MODELS.dll
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\bin\x64\Debug\net6.0\MuniBarva.MODELS.deps.json
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\bin\x64\Debug\net6.0\MuniBarva.MODELS.dll
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\bin\x64\Debug\net6.0\MuniBarva.MODELS.pdb
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\MuniBarva.MODELS.csproj.AssemblyReference.cache
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\MuniBarva.MODELS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\MuniBarva.MODELS.AssemblyInfoInputs.cache
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\MuniBarva.MODELS.AssemblyInfo.cs
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\MuniBarva.MODELS.csproj.CoreCompileInputs.cache
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\MuniBarva.MODELS.dll
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\refint\MuniBarva.MODELS.dll
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\MuniBarva.MODELS.pdb
+D:\Rleit\Documents\C#\MunicipalidadBarvaAPI\MuniBarva.MODELS\obj\x64\Debug\net6.0\ref\MuniBarva.MODELS.dll

@@ -10,21 +10,21 @@ using System.Threading.Tasks;
 
 namespace MuniBarva.DAO
 {
-    public class LoginDAO : ILoginDAO
+    public class LoginDao : ILoginDao
     {
 
-        private readonly MasterDAO _masterDAO;
+        private readonly MasterDao _masterDao;
 
-        public LoginDAO(MasterDAO masterDAO)
+        public LoginDao(MasterDao masterDao)
         {
-            _masterDAO = masterDAO;
+            _masterDao = masterDao;
         }
 
         public async Task<Employees> SignIn(string _email, string _password)
         {
-            using (var connection = this._masterDAO.GetConnection())
+            using (var connection = this._masterDao.GetConnection())
             {
-                return await connection.QueryFirstOrDefaultAsync<Employees>("dbo.MUNI_PA_SIGNIN", new
+                return await connection.QueryFirstOrDefaultAsync<Employees>("MUNI_PA_SIGNIN", new
                 {
                     Email = _email,
                     Password = _password
