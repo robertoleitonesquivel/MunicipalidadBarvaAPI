@@ -20,8 +20,8 @@ namespace MuniBarva.SERVICES
 
         public SendEmail()
         {
-            User = "rleiton22@hotmail.com";
-            Password = "Andres221193@";
+            User = "";
+            Password = "";
             Server = "smtp.office365.com";
             Port = 587;
             smtpClient = new SmtpClient();
