@@ -1,4 +1,5 @@
-﻿using MuniBarva.MODELS.DTO;
+﻿using MuniBarva.MODELS;
+using MuniBarva.MODELS.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace MuniBarva.SERVICES.Interfaces
 {
     public interface ILoginService
     {
-        Task<EmployeesDTO> SignIn(string _email, string _password);
+        Task<ApiResponse<EmployeesDTO>> SignIn(string _email, string _password);
+        Task<ApiResponse<string>> Send(RecoverPasswordDTO recoverPassword);
     }
 }

@@ -31,5 +31,17 @@ namespace MuniBarva.DAO
                 }, commandType: CommandType.StoredProcedure);
             }
         }
+
+        public async Task SaveToken(string _token, string _email)
+        {
+            using (var connection = this._masterDao.GetConnection())
+            {
+                await connection.ExecuteAsync("MUNI_PA_SAVETOKEN", new
+                {
+                    Email = _email, 
+                    Token = _token
+                }, commandType: CommandType.StoredProcedure);
+            }
+        }
     }
 }

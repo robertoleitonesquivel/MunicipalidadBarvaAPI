@@ -8,6 +8,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.Extensions.Configuration;
 using MuniBarva.COMMON.Interfaces;
+using MuniBarva.MODELS;
+using MuniBarva.COMMON;
 
 namespace MuniBarva.SERVICES
 {
@@ -16,17 +18,49 @@ namespace MuniBarva.SERVICES
         private readonly ILoginDao _loginDAO;
         private readonly IConfiguration _config;
         private readonly IEncrypt _encrypt;
+        private readonly ISendEmail _sendEmail;
+        private readonly ISettingsService _settingsService;
 
-        public LoginService(ILoginDao loginDAO, IConfiguration config, IEncrypt encrypt)
+        public LoginService
+                (
+                    ILoginDao loginDAO,
+                    IConfiguration config,
+                    IEncrypt encrypt,
+                    ISendEmail sendEmail,
+                    ISettingsService settingsService
+                )
         {
             _loginDAO = loginDAO;
             _config = config;
             _encrypt = encrypt;
+            _sendEmail = sendEmail;
+            _settingsService = settingsService; 
         }
 
-        public async Task<EmployeesDTO> SignIn(string _email, string _password)
+        public async Task<ApiResponse<string>> Send(RecoverPasswordDTO recoverPassword)
         {
-            _password = await _encrypt.Sha256(_password);  
+            var token = await _encrypt.Sha256(Guid.NewGuid().ToString());
+
+            await _loginDAO.SaveToken(token, recoverPassword.Email);
+
+            var settings = await _settingsService.Get(Constants.RecoverPassword);
+
+            string message = settings.Description.Replace("@Email", recoverPassword.Email);
+
+            message = message.Replace("@Token", token);
+
+            await _sendEmail.Send(recoverPassword.Email, "Recuperación de contraseña", message);
+
+            return new ApiResponse<string>
+            {
+                Message = "Ha sido enviado un mensaje a su email con los pasos para restablecer la contaseña, por favor revise su email."
+            };
+
+        }
+
+        public async Task<ApiResponse<EmployeesDTO>> SignIn(string _email, string _password)
+        {
+            _password = await _encrypt.Sha256(_password);
 
             var oEmployee = await this._loginDAO.SignIn(_email, _password);
 
@@ -40,7 +74,7 @@ namespace MuniBarva.SERVICES
 
                 oEmployeesDTO.Jwt = await GetJwT(oEmployeesDTO);
 
-                return oEmployeesDTO;
+                return new ApiResponse<EmployeesDTO> { Data = oEmployeesDTO };
             }
         }
 
